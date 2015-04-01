@@ -1,0 +1,18 @@
+{
+  "name": "thenFinder",
+  "version": "1.0.0",
+  "description": "Finds calls to then() that do not pass two arguments or do not pass functions as arguments",
+  "main": "thenFinder.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "promises",
+    "then"
+  ],
+  "author": "Rob Hamilton",
+  "license": "MIT",
+  "dependencies": {
+    "esprima": "^2.1.0"
+  }
+}
